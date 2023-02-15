@@ -1,5 +1,18 @@
 # 🔗 MVVM in Android
 
+🗄️ **Model :** Web servislerinde , veri tabanlarında veya farklı veri kaynaklarından çekilen verileri temsil etmek için oluşturduğumuz sınıflardır.
+
+🎑 **View :** Kullanıcının etkileşimde bulunduğu önyüzlerin (Activity,Fragment) içerdiği kodların bulunduğu sınıflardır. Bu sınıflarda sayısal işlemler yapılmaz. Bu sınıfların amacı ViewModel’dan istediğimiz verileri Observe (gözlem) etmektir. Kullanıcı ile ekran arasındaki işlemler gerçekleştirilir.
+
+🧠 **ViewModel :** View ile Model’ler arasındaki iletişimi sağlayan sınıflardır. Bu sınıflarda sayısal işlemler gerçekleştirilir.
+
+<p align="center">
+  <img width="50%" height="50%" src="https://miro.medium.com/max/960/1*-yY0l4XD3kLcZz0rO1sfRA.png"/>
+</p>
+
+
+## 📱 Proje Tanıtımı
+
 <p align="left">
   <img width="25%" height="25%" src="https://github.com/yunusemreyakisan/mvvm-android/blob/master/app/Screenshot/MVVM_Login.gif"/>
 </p>
