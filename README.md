@@ -22,3 +22,7 @@
 <p align="left">
   <img width="25%" height="25%" src="https://github.com/yunusemreyakisan/mvvm-android/blob/master/app/Screenshot/MVVM_Login.gif"/>
 </p>
+
+## 📝 Referanslar
+MVVM : https://rcpyesilkaya.medium.com/nedir-bu-mvvm-8af484655b11  
+Data Binding: https://www.mobilhanem.com/android-data-binding-kutuphanesi/
