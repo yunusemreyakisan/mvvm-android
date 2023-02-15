@@ -72,7 +72,7 @@ public class LoginViewModel extends BaseObservable {
 
     //Email girisi tasarima uygun ve sifre boyutu 5'ten buyukse true doner.
     public boolean isInputDataValid() {
-        boolean durum = getUserEmail().equals("yakisan@gmail.com") && (getUserPassword().length()>5 && getUserPassword().equals("123456"));
+        boolean durum = (getUserEmail().equals("yakisan@gmail.com")) && (getUserPassword().equals("123456"));
         return !TextUtils.isEmpty(getUserEmail()) && Patterns.EMAIL_ADDRESS.matcher(getUserEmail()).matches() && getUserPassword().length() > 5 && durum;
     }
 }
