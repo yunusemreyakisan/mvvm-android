@@ -13,7 +13,7 @@
 
 ## 📱 Proje Tanıtımı
 
-🗄️ **Model :** User -> özel alanlar ve kapsülleme
+🗄️ **Model :** User -> Kapsülleme
 
 🎑 **View :** MainActivity -> @BindingAdapter({"toastMessage"})
 
